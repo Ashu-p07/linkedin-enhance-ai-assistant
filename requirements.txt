@@ -1,8 +1,7 @@
 # Core Web Framework
 streamlit>=1.28.0
 
-# Database
-sqlite3  # Built-in with Python, but listing for clarity
+
 
 # Environment Management
 python-dotenv>=1.0.0
