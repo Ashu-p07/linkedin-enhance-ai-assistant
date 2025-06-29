@@ -647,7 +647,7 @@ Profile Completeness: High (includes experience, education, skills, certificatio
         {profile_data}
 
 📌 **Instructions**:
-- Keep the total output under **100 words**.
+- Keep the total output under **150 words**.
 - Be specific, actionable, and market-aligned.
 - Focus only on key improvements.
                                                   
@@ -754,7 +754,7 @@ n         - Keep suggestions brief and skimmable
         {profile_data}
                                                   
 📌 **Instructions**:
-- Keep the total output under **100 words**.
+- Keep the total output under **150 words**.
 - Be specific, actionable, and market-aligned.
 - Focus only on key improvements.
 
@@ -807,7 +807,7 @@ n         - Keep suggestions brief and skimmable
         {profile_data}
                                                   
 📌 **Instructions**:
-- Keep the total output under **100 words**.
+- Keep the total output under **150 words**.
 - Be specific, actionable, and market-aligned.
 - Focus only on key improvements.
 
@@ -1046,7 +1046,7 @@ class LinkedInAssistantApp:
                 {profile_data}
                 
 📌 **Instructions**:
-- Keep the total output under **100 words**.
+- Keep the total output under **170 words**.
 - Be specific, actionable, and market-aligned.
 - Focus only on key improvements.                                          
                                                           
@@ -1107,7 +1107,7 @@ n         - Keep suggestions brief and skimmable
                 You are a LinkedIn optimization expert. Analyze this profile and provide specific,clear, market-aligned actionable optimization recommendations(not too large):
                 
 📌 **Instructions**:
-- Keep the total output under **100 words**.
+- Keep the total output under **170 words**.
 - Be specific, actionable, and market-aligned.
 - Focus only on key improvements.
 
@@ -1210,7 +1210,10 @@ n         - Keep suggestions brief and skimmable
         """Provide career guidance"""
         prompt = ChatPromptTemplate.from_template("""
         You are a senior career strategist. The user is asking about career guidance: "{user_question}"
-
+📌 **Instructions**:
+- Keep the total output under **170 words**.
+- Be specific, actionable, and market-aligned.
+- Focus only on key improvements.
         Based on this comprehensive profile:
         {profile_data}
 
@@ -1232,7 +1235,7 @@ n         - Keep suggestions brief and skimmable
         You are a professional development expert. The user is asking about skill development: "{user_question}"
 
 📌 **Instructions**:
-- Keep the total output under **100 words**.
+- Keep the total output under **170 words**.
 - Be specific, actionable, and market-aligned.
 - Focus only on key improvements.
         Based on this profile:
@@ -1263,7 +1266,7 @@ n         - Keep suggestions brief and skimmable
         You are a helpful LinkedIn career assistant. The user is asking: "{user_question}"
 
 📌 **Instructions**:
-- Keep the total output under **300 words**.
+- Keep the total output under **200 words**.
 - Be specific, actionable, and market-aligned and practical.
 - Focus only on maximumpractical answer if need then eloborate.
         Based on their comprehensive profile:
@@ -1297,6 +1300,8 @@ n         - Keep suggestions brief and skimmable
         3. **Career Path** - Get personalized career progression predictions
         4. **Complete Analysis** - Run full multi-agent analysis with job fit scoring
         5. **Profile Optimization** - Get specific recommendations to enhance your LinkedIn presence
+        
+        ⏳ Note: Please allow 30–60 seconds for analysis and 5–15 seconds for AI responses.
         
         
         
