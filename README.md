@@ -152,7 +152,7 @@ Visit: `https://linkedin-enhance-ai-assistant-jsh3a8hqgn49wqunddvcsa.streamlit.a
 
 ```
 Input: https://linkedin.com/in/john-doe
-Output: Full analysis, score, and improvement suggestions
+Output: Full analysis, profile summary
 ```
 
 ### ✔️ Job Fit Analysis
