@@ -217,6 +217,7 @@ Licensed under [MIT](LICENSE)
 * **Apify** – Web scraping LinkedIn data
 
 ---
+**⏳ Note**: Please allow 30–60 seconds for analysis and 5–15 seconds for AI responses.
+---
 
 **🛠 Built with passion by Ashu Pabreja**
-**⏳ Note**: Please allow 30–60 seconds for analysis and 5–15 seconds for AI responses.
