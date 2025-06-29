@@ -132,8 +132,7 @@ streamlit run cc.py
 ```
 
 ### Open in Browser
-
-Visit: `https://linkedin-enhance-ai-assistant-jsh3a8hqgn49wqunddvcsa.streamlit.app/`
+<a href="https://linkedin-enhance-ai-assistant-jsh3a8hqgn49wqunddvcsa.streamlit.app/" target="_blank">Visit my website</a>
 
 ### Analyze a LinkedIn Profile
 
