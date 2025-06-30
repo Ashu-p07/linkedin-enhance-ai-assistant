@@ -71,8 +71,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/linkedin-ai-career-assistant.git
-cd linkedin-ai-career-assistant
+git clone https://github.com/Ashu-p07/linkedin-enhance-ai-assistant
 ```
 
 ### 2. Set Up Virtual Environment
